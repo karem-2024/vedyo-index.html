@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #580b8b;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #580b8b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(218, 212, 212, 0.822);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #e9ecec;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-section button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1f7be4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background-color: #768ecf;
+}
+
+.receipt {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #93c542;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #a3b952;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
